@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <script type="text/javascript" src="script.js"></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="topo">
+            <div class="topoint">
+                <div class="menutopo">
+                    <ul>
+                        <li><a href="#" style="color: blue;">Home</a></li>
+                        <li><a href="#">Quem Somos</a></li>
+                        <li><a href="#">Anuncie Aqui</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="publicidadetopo">
+                    <a href="#"><img src="images/lupa.png" width="25" height="25"/></a>
+                    <a><input type="text" placeholder="Busca..." /></a>
+                    <a href="#"><img src="images/youtube.png" width="25" height="25"/></a> 
+                    <a href="#"><img src="images/twitter.png" width="25" height="25"/></a>
+                    <a href="#"><img src="images/facebook.png" width="25" height="25"/></a>
+                    <a href="#"><img src="images/googleplus.png" width="25" height="25"/></a>
+                    <a href="#"><img src="images/rss.png" width="25" height="25"/></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="topo2">
+            <div class="topo2int">
+                <div class="logo">
+                    <img src="images/logo.png" width="230" height="80"/>
+                </div>
+                <div class="banner1">
+                    <div class="bannertopo">
+                        Publicidade
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menuint">
+                <img src="images/menu.png" class="menumobile" width="40" height="40" onclick="toggleMenu()" />
+                <ul id="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Economia</a></li>
+                    <li><a href="#">Entretenimento</a>
+                        <img src="images/arrowdown.jpg" width="7" height="7">
+                        <div class="submenu">
+                            <a href="#"><div class="submenuitem">Item 1</div></a>
+                            <a href="#"><div class="submenuitem">Item 2</div></a>
+                            <a href="#"><div class="submenuitem">Item 3</div></a>
+                        </div>
+                    </li>
+                    <li><a href="#">Esportes</a>
+                        <img src="images/arrowdown.jpg" width="7" height="7">
+                        <div class="submenu">
+                            <a href="#"><div class="submenuitem">Item 1</div></a>
+                            <a href="#"><div class="submenuitem">Item 2</div></a>
+                            <a href="#"><div class="submenuitem">Item 3</div></a>
+                        </div>
+                    </li>
+                    <li><a href="#">Geral</a></li>
+                    <li><a href="#">Notícias</a>
+                        <img src="images/arrowdown.jpg" width="7" height="7">
+                        <div class="submenu">
+                            <a href="#"><div class="submenuitem">Item 1</div></a>
+                            <a href="#"><div class="submenuitem">Item 2</div></a>
+                            <a href="#"><div class="submenuitem">Item 3</div></a>
+                        </div>
+                    </li>
+                    <li><a href="#">Polícia</a></li>
+                    <li><a href="#">Vídeos</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="topo3">
+            <div class="topo3int">
+                <div class="topo3noticia">
+                    <div class="ultimasnoticias">
+                        ULTIMAS NOTÍCIAS
+                    </div>
+                    <div class="ultimasnoticias2">
+                        Escrever a ultima noticia da pagina aqui.
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <div class="fundo">
+            <div class="leftside">
+                <div class="slideshow" id="slideshow">
+                    <div class="slidebolinhas">
+                        <div class="bolinha" onclick="mudarSlide(0)"></div>
+                        <div class="bolinha" onclick="mudarSlide(1)"></div>
+                        <div class="bolinha" onclick="mudarSlide(2)"></div>
+                        <div class="bolinha" onclick="mudarSlide(3)"></div>
+                    </div>
+                    <div class="slideshowarea">
+                        <div class="slide" style="background-image: url('http://www.google.com.br/google.jpg')">
+                            <div class="slideinfo">
+                                <div class="slideinfo_titulo">
+                                    Titulo de teste
+                                </div>
+                                <div class="slideinfo_subtitulo">
+                                    Subtitulo de teste
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" style="background-image: url('http://www.google.com.br/google.jpg')">
+                            <div class="slideinfo">
+                                <div class="slideinfo_titulo">
+                                    Titulo de teste 2
+                                </div>
+                                <div class="slideinfo_subtitulo">
+                                    Subtitulo de teste 2
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" style="background-image: url('http://www.google.com.br/google.jpg')">
+                            <div class="slideinfo">
+                                <div class="slideinfo_titulo">
+                                    Titulo de teste 3
+                                </div>
+                                <div class="slideinfo_subtitulo">
+                                    Subtitulo de teste 3
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide" style="background-image: url('http://www.google.com.br/google.jpg')">
+                            <div class="slideinfo">
+                                <div class="slideinfo_titulo">
+                                    Titulo de teste 4 
+                                </div>
+                                <div class="slideinfo_subtitulo">
+                                    Subtitulo de teste 4
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="widget">
+                    <div class="widget_titulo">
+                        NOTÍCIAS
+                    </div>
+                    
+                    <div class="widget_conteudo">
+                        <div class="noticiaarea1">
+                            <div class="noticiaitem noticiabig">
+                                <div class="noticiaimg">
+                                    <img src="" width="80" height="80" />
+                                </div>
+                                <div class="noticiatitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Dicta, voluptatem?
+                                </div>
+                                <div class="noticiainfo">
+                                    5 dias atras deixe um comentario
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="noticiaarea2">
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="" width="80" height="80" />
+                                </div>
+                                <div class="noticiatitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Dicta, voluptatem?
+                                </div>
+                                <div class="noticiainfo">
+                                    5 dias atras deixe um comentario
+                                </div>
+                            </div>
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="" width="80" height="80" />
+                                </div>
+                                <div class="noticiatitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Dicta, voluptatem?
+                                </div>
+                                <div class="noticiainfo">
+                                    5 dias atras deixe um comentario
+                                </div>
+                            </div>
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="" width="80" height="80" />
+                                </div>
+                                <div class="noticiatitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Dicta, voluptatem?
+                                </div>
+                                <div class="noticiainfo">
+                                    5 dias atras deixe um comentario
+                                </div>
+                            </div>
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="" width="80" height="80" />
+                                </div>
+                                <div class="noticiatitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Dicta, voluptatem?
+                                </div>
+                                <div class="noticiainfo">
+                                    5 dias atras deixe um comentario
+                                </div>
+                            </div>
+                        </div>
+                        <div style="clear: both"></div>
+                    </div>
+                </div>
+
+                <div class="widget">
+                    <div class="widget_titulo">
+                        ESPORTES
+                    </div>
+                    
+                    <div class="widget_conteudo">
+                        <div class="noticiaarea1">
+                            <div class="noticiaitem noticiabig">
+                                <div class="noticiaimg">
+                                    <img src="" width="80" height="80" />
+                                </div>
+                                <div class="noticiatitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Dicta, voluptatem?
+                                </div>
+                                <div class="noticiainfo">
+                                    5 dias atras deixe um comentario
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="noticiaarea2">
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="" width="80" height="80" />
+                                </div>
+                                <div class="noticiatitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Dicta, voluptatem?
+                                </div>
+                                <div class="noticiainfo">
+                                    5 dias atras deixe um comentario
+                                </div>
+                            </div>
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="" width="80" height="80" />
+                                </div>
+                                <div class="noticiatitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Dicta, voluptatem?
+                                </div>
+                                <div class="noticiainfo">
+                                    5 dias atras deixe um comentario
+                                </div>
+                            </div>
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="" width="80" height="80" />
+                                </div>
+                                <div class="noticiatitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Dicta, voluptatem?
+                                </div>
+                                <div class="noticiainfo">
+                                    5 dias atras deixe um comentario
+                                </div>
+                            </div>
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="" width="80" height="80" />
+                                </div>
+                                <div class="noticiatitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Dicta, voluptatem?
+                                </div>
+                                <div class="noticiainfo">
+                                    5 dias atras deixe um comentario
+                                </div>
+                            </div>
+                        </div>
+                        <div style="clear: both"></div>
+                    </div>
+                </div>
+                
+
+            </div>
+
+            <div class="rightside">
+                <div class="widget">
+                    <div class="widget_titulo">
+                        SOCIAL
+                    </div>
+
+                    <div class="widget_conteudo">
+                        <a href="#"><img src="images/rss.png" width="25" height="25"/></a>
+                        <a href="#"><img src="images/googleplus.png" width="25" height="25"/></a>
+                        <a href="#"><img src="images/facebook.png" width="25" height="25"/></a>
+                        <a href="#"><img src="images/twitter.png" width="25" height="25"/></a>
+                        <a href="#"><img src="images/youtube.png" width="25" height="25"/></a> 
+                    </div>
+                </div>
+                
+                <div class="widget">
+                    <div class="widget_titulo">
+                        ÚLTIMAS NOTÍCIAS
+                    </div>
+                    
+                    <div class="widget_conteudo">
+                        <div class="noticia_item">
+                            <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sequi.</a>
+                        </div>
+                        <div class="noticia_item">
+                            <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sequi.</a>
+                        </div>
+                        <div class="noticia_item">
+                            <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sequi.</a>
+                        </div>
+                        <div class="noticia_item">
+                            <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sequi.</a>
+                        </div>
+                        <div class="noticia_item">
+                            <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, sequi.</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="widget">
+                    <div class="widget_titulo">
+                        ÚLTIMAS NOTÍCIAS
+                    </div>
+                    <div class="widget_conteudo">
+                        <img src="images/banner.jpg" width="266" />
+                    </div>
+                </div>
+
+                <div class="widget">
+                    <div class="widget_titulo">
+                        ENCONTRE-NOS NO FACEBOOK
+                    </div>
+                    <div class="widget_conteudo">
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs&width=268&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="268" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </body>
+</html>

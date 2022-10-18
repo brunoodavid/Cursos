@@ -1,0 +1,19 @@
+table, th, td{
+    width: 400px;
+    height: 50px;
+    border: 6px solid black ;
+    border-collapse: collapse;
+    font-weight: bold;
+    padding: 5px;
+}
+.header tr, .header td , .header + tr , #number,#number + td {
+    border: 1.5px solid black;
+    text-align: center;
+}
+
+.meio td, .meio tr {
+    border: 1.5px solid gainsboro;
+}
+
+
+

@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.area{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.area_form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.area_form label{
+    margin-left: 2px;
+}
+
+.area_form input{
+    width: 300px;
+    height: 30px;
+    padding-left: 5px;
+    background-color: #E8EFE4;
+    border: 1px solid #EBEBEB;
+    border-radius: 3px ;
+    outline: none;
+}
+
+.area_form select{
+    width: 304px;
+    height: 30px;
+    background-color: #E8EFE4;
+    border: 1px solid #EBEBEB;
+    border-radius: 3px ;
+}
+
+.btn_enviar{
+    display: flex;
+    justify-content: center;
+}
+
+.btn_enviar input{
+    text-align: center;
+    color: white;
+    background-color: #45543D;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 30px;
+}

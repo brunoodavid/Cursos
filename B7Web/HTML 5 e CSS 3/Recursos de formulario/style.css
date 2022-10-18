@@ -1,0 +1,14 @@
+body{
+    margin-top: 50px;
+    margin-left: 300px;
+}
+form{
+    background-color: thistle;
+    height: 150px;
+    width:200px ;
+    
+}
+input{
+    margin-top: 8px;
+    margin-left: 14px;
+}

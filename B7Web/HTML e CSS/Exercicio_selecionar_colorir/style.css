@@ -1,0 +1,20 @@
+.header{
+    background-color: blue;
+    color: white;
+}
+
+.header + div{
+    background-color: red;
+}
+
+div{
+    background-color: white;
+}
+
+strong{
+    color:green;
+}
+
+.header > p > span{
+    background-color: violet;
+}

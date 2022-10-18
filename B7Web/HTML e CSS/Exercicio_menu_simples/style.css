@@ -1,0 +1,14 @@
+.menu{
+    background-color: blue;
+}
+
+.menu a{
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
+.menu a:hover{
+    background-color: white;
+    color: blue;
+}

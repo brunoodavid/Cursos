@@ -1,0 +1,38 @@
+.menu {
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+.menu a{
+    color: white;
+    display: block;
+    padding: 10px;
+}
+.menu a:hover{
+    background-color: white;
+    color: blue;
+}
+
+.menu li{
+    display: inline-block;
+    list-style: none;
+}
+
+/*esconde o submenu*/
+.submenu {
+    position: absolute; /*faz com que a div fique embaixo do menu " sobre "*/
+    display: none; /*Faz com q o submenu desapareça*/
+    min-width: 100px;
+}
+
+.menu li:hover .submenu{
+    display: block;
+}
+
+.submenu .menu li{
+    display: block;
+}
+
+
+
+

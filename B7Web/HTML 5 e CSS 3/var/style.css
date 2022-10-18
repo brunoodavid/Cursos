@@ -1,0 +1,30 @@
+/*Criando variaveis no css*/
+:root{
+    --bg-color: #fff;
+    --bg-second: #ccc;
+    --font-color: #ff0000;
+    --font-size: 25px;
+}
+
+body{
+    background-color: var(--bg-color);
+    font-size: var(--font-size);
+}
+
+h1{
+    /*o código depois da virgula, serve para quando o navegador não encontrar 
+    a cor da letra definida pela variavel*/
+    color: var(--font-color, #0000ff);
+}
+
+.container{
+
+    background-color: var(--bg-second);
+    color: var(--font-color);
+}
+
+@media (max-width: 450px){
+    :root{
+        --font-size: 15px
+    }
+}

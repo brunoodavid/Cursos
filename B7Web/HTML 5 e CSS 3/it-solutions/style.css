@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tangerine&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: #121112;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    position: fixed;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.logo{
+    font-size: 2rem;
+}
+
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.navbar-menu li{
+    padding: 10px;
+}
+
+.navbar-menu a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+/* Header - showcase */
+
+.showcase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('img/showcase.jpg') no-repeat center center/cover;
+    height: 91vh;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+    /* Overlay */
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: color;
+}
+
+.showcase-container{
+    text-align: center;
+}
+
+.showcase-container h1{
+    font-size: 2rem;
+}
+
+.showcase-container p{
+    font-size: 1.2rem;
+}
+
+.showcase-container .btn-showcase{
+    display: inline-block;
+    padding: 15px 60px;
+    border-radius: 20px;
+    background-color: #121112;
+    text-decoration: none;
+    color: white;
+}
+
+/* Clientes */
+
+.clientes{
+    width: 100%;
+    background-color: #EEEEEE;
+}
+
+.titulo-section{
+    color: #111111;
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.clientes-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+
+.clientes-container .imagens{
+    width: 25%;
+    text-align: center;
+}
+
+.clientes-container img{
+    width: 25%;
+}
+
+/* Sobre */
+
+.sobre{
+    width: 100%;
+    background-color: #222222;
+    color: white;
+}
+
+.sobre .sobre-titulo{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.sobre-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    gap: 30px;
+}
+
+.sobre-items{
+    width: 33.333%;
+    background-color: #333333;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Produtos */
+
+.produtos{
+    width: 100%;
+}
+
+.produtos-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.produtos-itens{
+    width: 650px;
+}
+
+.item{
+    display: flex;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+/* testemunhas */
+
+.testemunhas{
+    width: 100%;
+    background-color: #222222;
+}
+
+.testemunhas-titulo{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.testemunhas-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testemunha-item {
+    width: 80%;
+    display: flex;
+    align-items: center;  
+    background-color: #333333;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.testemunha-item img{
+    width: auto;
+    height: 200px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.testemunha-item p{
+    color: white;
+    font-size: 15px;
+    width: 85%;
+}
+
+/* Galeria */
+
+.galeria{
+    width: 100%;
+    padding: 50px;
+    margin: auto;
+}
+
+.galeria-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(540px, 1fr));;
+    grid-gap: 10px;
+    justify-items: center;
+}
+
+.item-galeria img{
+    width: 540px;
+    height: 360px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+/* Rodape */
+
+.rodape{
+    width: 100%;
+    margin: auto;
+    background-color: #222222;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: white;
+}

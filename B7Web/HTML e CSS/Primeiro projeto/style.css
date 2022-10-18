@@ -1,0 +1,110 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.topo{
+    height: 50px;
+    background-color: #353535;
+}
+.topointerno{
+    width: 1000px;
+    margin: auto;
+    color: white;
+}
+.logomarca{
+    font: bold;
+    font-size: 20px;
+    line-height: 50px;
+    float: left;
+}
+.menu{
+    float: right;
+}
+.menu ul, .menu li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+.menu li{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 50px;
+}
+.menu li:hover{
+    background-color: #547fbd;
+    cursor: pointer;
+}
+.banner{
+    height: 300px;
+    background-color: #5179b6;
+}
+.bannerinterno{
+    width: 1000px;
+    margin: auto;
+    color: white;
+}
+.banneresquerda{
+    float: left;
+}
+.frase1{
+    font-size: 48px;
+    padding-top: 60px;
+    font-weight: bold;
+}
+.frase2{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.botao{
+    width: 280px;
+    height: 58px;
+    background-color: #efbf2d;
+    color: black;
+    margin-top: 30px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 58px;
+    border-radius: 5px;
+}
+.bannerdireita{
+    float: right;
+}
+.bannerdireita img{
+    float: right;
+    margin-right: 48px;
+}
+.conteudo{
+    height: 630px;
+}
+.conteudointerno{
+    width: 1000px;
+    margin: auto;
+}
+.outrosprodutos{
+    font-weight: bold;
+    text-align: center;
+    line-height: 90px;
+    height: 90px ;
+}
+.bannerconteudo{
+    padding-top: 45px;
+}
+.fotos img{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.rodape{
+    height: 50px;
+    background-color: #5179b6;
+}
+.texto1{
+    text-align: center;
+    line-height: 50px;
+}

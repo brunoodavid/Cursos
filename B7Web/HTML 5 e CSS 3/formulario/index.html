@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <div class="area">
+            <form method="post">
+                <div class="area_form">
+                    <label>Nome: </label>
+                    <input type="text" name="nome" placeholder="Nome Completo" required>
+                </div>
+                <div class="area_form">
+                    <label>RG: </label>
+                    <input type="" name="rg" placeholder="00.000.000-0" required>
+                </div>
+                <div class="area_form">
+                    <label>Pai: </label>
+                    <input type="text" name="nome_pai" placeholder="Nome do Pai" required>
+                </div>
+                <div class="area_form">
+                    <label>Mãe </label>
+                    <input type="text" name="nome_mae" placeholder="Nome da Mãe" required>
+                </div>
+                <div class="area_form">
+                    <label>Escolaridade: </label>
+                    <select required>
+                        <option>Selecione</option>
+                        <option>Ensino Fundamental</option>
+                        <option>Ensino Médio</option>
+                        <option>Ensino Superior</option>
+                    </select>
+                </div>                           
+                <div class="area_form">
+                    <label>Email: </label>
+                    <input type="email" name="email" placeholder="exemplo@hotmail.com" required>
+                </div>
+                <div class="area_form">
+                    <label>Data de Nascimento: </label>
+                    <input type="date" name="data_nascimento" required>
+                </div>
+                <div class="area_form">
+                    <label>CPF:  </label>
+                    <input type="text" name="cpf" placeholder="000.000.000.00" required>
+                </div>
+                <div class="area_form">
+                    <label>Profissão:</label>
+                    <input type="text" name="profissao" placeholder="Profissão" required>
+                </div>
+                <div class="area_form">
+                    <label>Celular </label>
+                    <input type="number" name="celular" placeholder="(00) 0000-0000)" required>
+                </div>
+                <div class=btn_enviar>
+                    <input type="submit" value="Cadastrar">
+                </div>
+            </form>  
+         
+    </body>
+</html>

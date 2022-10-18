@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+}
+.texto{
+    width: 500px; /*Largura da div*/
+    height: 200px; /*Altura da div*/
+    background-color: black; /*Cor da dive*/
+    color: red; /*cor do texto*/
+    font-size: 20px; /*tamanho do texto*/
+    font-family: Arial, Helvetica, sans-serif; /*fonte do texto*/
+    font-weight: bold; /*colocar texto em negrito*/
+    text-align: center; /*alinhar o texto*/
+    text-transform: lowercase; /*Transforma as letras em maiusculas ou minusculas*/
+    text-decoration: underline; /*Sublimar o texto*/
+}

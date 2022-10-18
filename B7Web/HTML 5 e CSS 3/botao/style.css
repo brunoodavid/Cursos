@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.div_botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.botao{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    font-size: 3rem;
+    padding: 30px;
+    text-align: center;
+    background-color: #003de6;
+}
+
+.botao:hover{
+    cursor: pointer;
+    background-color: #0090D6;
+    transition-delay: -1s;
+}

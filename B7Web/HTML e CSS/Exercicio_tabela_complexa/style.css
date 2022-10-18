@@ -1,0 +1,22 @@
+table, tr, td{
+    width: 600px;
+    height: 50px;
+    border: 2px solid gray;
+    text-align: center;
+}
+
+.header{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+.amarelo{
+    background-color: yellow;
+}
+
+.roxo{
+    background-color: rebeccapurple;
+}
+.verde{
+    background-color: green;
+}
