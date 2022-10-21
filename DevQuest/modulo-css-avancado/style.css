@@ -1,0 +1,36 @@
+/* ---- Anatomia ---- */
+/* seletor:pseudo-classe{
+    propriedade: valor;
+} */
+
+p:first-child{
+    color: aquamarine;
+}
+
+p:last-child{
+    color: blueviolet;
+}
+
+p:not(.padrao){
+    color: yellow;
+}
+
+/* nth-child(odd) - elementos ímpares */
+/* nth-child(even) - elementos pares */
+/* nth-child(3n) - elementos de 3 em 3 */
+/* nth-child(2) - elemento específico */
+/* nth-child(n+2):nth-child(-n+5) - elementos 2 ao 5 selecionados */
+/* nth-last-child(1) - começa no ultimo elemento */
+/* nth */
+
+/* li:nth-child(even){
+    color: red;
+} */
+
+li:nth-last-child(1){
+    color: red;
+}
+
+p:only-child{
+    color: red;
+}
