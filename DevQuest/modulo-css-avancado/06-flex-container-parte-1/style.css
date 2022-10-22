@@ -1,0 +1,51 @@
+.container.direction-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.container.direction-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.container.direction-row div,
+.container.direction-column div{
+    background-color: aqua;
+    color: black;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.container.wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container.nowrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.container.wrap div, 
+.container.nowrap div{
+    background-color: blueviolet;
+    color: black;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.container.flow div{
+    background-color: brown;
+    color: black;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.container.flow{
+    display: flex;
+    /* PADRÃO */
+    flex-flow: row wrap;
+}
