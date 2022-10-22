@@ -1,0 +1,37 @@
+/* --- Anatomia ---- */
+/* seletor::pseudo-elemento{
+    propriedade: valor;
+} */
+
+.first-letter::first-letter{
+    color: coral;
+}
+
+.first-line::first-line{
+    color: coral;
+}
+
+li::marker{
+    color: red;
+    font-size: 23px;
+}
+
+h2::before{
+    /* content: url(images/favicon.ico); */
+    content: "";
+    background: url(images/favicon.ico) center center no-repeat;
+    display: inline-block;
+    /* tamanho da imagem */
+    width: 16px;
+    height: 16px;
+}
+
+h2::after{
+    /* content: url(images/favicon.ico); */
+    content: "";
+    background: url(images/favicon.ico) center center no-repeat;
+    display: inline-block;
+    /* tamanho da imagem */
+    width: 16px;
+    height: 16px;
+}
