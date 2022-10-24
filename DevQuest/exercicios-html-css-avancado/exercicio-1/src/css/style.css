@@ -1,0 +1,50 @@
+html{   
+    font-family: 'Public Sans', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo{
+    display: flex;
+    padding: 45px;
+    align-items: center;
+}
+
+.header .logo h1{
+    font-size: 20px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.menu li{
+    margin-top: 50px;
+}
+
+.menu li a{
+    padding: 10px 5px;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 20px;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.menu li a:hover{
+    background-color: #5BC241;
+    color: white;
+}
+
+.menu li a.btn-cadastrar{
+    background-color: #5BC241;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 40px;
+}
