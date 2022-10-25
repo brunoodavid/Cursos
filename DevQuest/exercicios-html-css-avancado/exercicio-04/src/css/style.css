@@ -1,0 +1,36 @@
+body{
+    font-family: 'Public Sans', sans-serif;
+    height: 100vh;
+}
+
+.container-pinturas{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.pinturas{
+    position: relative;
+}
+
+.pinturas .pintura-titulo{
+    color: white;
+    width: 300px;
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+}
+
+.pinturas .pintura-titulo h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.pinturas .pintura-titulo h3{
+    margin: 5px 0;
+    font-weight: 300;
+    font-size: 17px;
+}
