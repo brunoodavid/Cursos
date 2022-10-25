@@ -1,0 +1,62 @@
+body{
+    background-color: var(--background-color);
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    height: 320px;
+    gap: 25px;
+    border-radius: 10px;
+}
+
+hr{
+    width: 100%;
+}
+
+.card .profile-informations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.card .profile-informations img{
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.profile-informations .name,
+.numbers-information .number{
+    font-weight: 700;
+}
+
+.profile-informations .age,
+.profile-informations .city,
+.numbers-information .info{
+    font-weight: 400;
+    color: var(--text-color);
+}
