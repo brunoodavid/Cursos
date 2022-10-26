@@ -1,0 +1,12 @@
+.container > div{
+    border: 1px solid #000;
+    background-color: #8a2be2;
+    color: #fff;
+    font-size: 20px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 150px 50px 150px 50px;
+}
