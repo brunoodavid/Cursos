@@ -1,0 +1,24 @@
+.container > div{
+    border: 1px solid #000000;
+    background-color: #8a2be2;
+    color: #fff;
+    font-size: 20px;
+}
+
+.container.auto{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, 150px);
+
+    grid-template: 150px / auto auto;
+}
+
+.container.gap{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, 50px);
+    
+    grid-gap: 10px 1px;
+    /* grid-column-gap: 10px;
+    grid-row-gap: 10px; */
+}
