@@ -118,7 +118,7 @@ body{
 
 .about .item .btn-know-more{
     font-size: 1.6rem;
-    align-self: flex-start;
+    align-self: flex-end;
     transition: 0.5s;
 }
 
