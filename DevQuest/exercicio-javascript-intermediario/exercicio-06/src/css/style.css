@@ -1,0 +1,51 @@
+body{
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 655px;
+    height: 347px;
+    background-color: #FCFCFC;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+}
+
+.imagem-faq{
+    left: -15%;
+    position: absolute;
+}
+
+.lado-direito{
+    margin-left: 228px;
+    height: 100%;
+    padding: 60px 50px 60px 0;
+}
+
+.titulo{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.conteudo{
+    display: flex;
+    margin-top: 15px;
+}
+
+.titulo-conteudo{
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-right: 40px;
+}
+
+.texto-conteudo{
+    font-size: 1.5rem;
+    font-weight: 300;
+    max-width: 350px;
+    height: 55px;
+    display: none;
+}
