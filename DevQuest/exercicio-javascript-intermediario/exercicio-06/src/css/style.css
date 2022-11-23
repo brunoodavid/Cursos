@@ -17,7 +17,7 @@ body{
 }
 
 .imagem-faq{
-    left: -15%;
+    left: -14%;
     position: absolute;
 }
 
@@ -34,12 +34,21 @@ body{
 .conteudo{
     display: flex;
     margin-top: 15px;
+    align-items: center;
 }
 
 .titulo-conteudo{
     font-size: 1.7rem;
     font-weight: 500;
-    margin-right: 40px;
+    margin-right: 26px;
+}
+
+.seta{
+    position: absolute;
+}
+
+.seta.aberta{
+    display: none;
 }
 
 .texto-conteudo{
@@ -49,3 +58,5 @@ body{
     height: 55px;
     display: none;
 }
+
+
