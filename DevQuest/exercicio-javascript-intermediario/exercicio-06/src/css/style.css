@@ -1,0 +1,73 @@
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E5E5;
+}
+
+.acordeon{
+    width: 655px;
+    min-height: 347px;
+    border-radius: 21px;
+    background-color: #FCFCFC;
+    box-shadow: 0px 20px 20px -10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.ilustracao{
+    position: absolute;
+    left: -15%;
+}
+
+.conteudo{
+    margin-left: 215px;
+    padding: 60px 30px 60px 0;
+    width: 65%;
+}
+
+.conteudo h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.conteudo .item{
+    background-image: url(../images/seta-fechada.png);
+    background-repeat: no-repeat;
+    background-position: top 5px right 0;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.conteudo .item:last-child{
+    border-bottom: none;
+}
+
+
+.conteudo .pergunta{
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-top: 15px;
+    width: 80%;
+}
+
+.conteudo .resposta{
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 15px;
+    display: none;
+}
+
+/* ESTILIZACAO DA CLASSE ATIVO */
+
+.conteudo .item.ativo{
+    background-image: url(../images/seta-aberta.png);
+}
+
+.conteudo .item.ativo .resposta{
+    display: block;
+}
