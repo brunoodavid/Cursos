@@ -1,9 +1,14 @@
-const setaFechada = document.querySelectorAll(".seta-fechada")
+const item = document.querySelectorAll(".item")
 
-console.log(setaFechada)
-
-setaFechada.forEach(function(item){
+item.forEach(function(item){
     item.addEventListener("click", function(){
+        const  itemAtivoAtual = document.querySelector(".ativo")
         
+        if(itemAtivoAtual){
+            itemAtivoAtual.classList.remove("ativo")
+        }
+
+        item.classList.add("ativo")
+
     })
 })
