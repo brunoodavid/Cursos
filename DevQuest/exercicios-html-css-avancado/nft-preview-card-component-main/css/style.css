@@ -1,0 +1,132 @@
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.card{
+    width: 350px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    padding: 23px;
+}
+
+.card-img{
+    display: flex;
+    position: relative;  
+    margin-bottom: 20px;  
+}
+
+.card-img::before{
+    content: '';
+    background-color: cyan;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.card-img::after{
+    content: '';
+    background: url(../images/icon-view.svg) no-repeat center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.card-img:hover::before{
+    opacity: 0.4;
+}
+
+.card-img:hover::after{
+    opacity: 1;
+}
+
+.card-img img{
+    border-radius: 10px;
+}
+
+.card-tittle h2{
+    font-size: 22px;
+    color: #FFF;
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+}
+
+.card-tittle h2:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.card-text{
+    color:   hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 28px;
+}
+
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 22px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    padding-bottom: 20px;
+}
+
+.card-info .price{
+    color: hsl(178, 100%, 50%);
+    display: flex;
+}
+
+.card-info .price::before{
+    content: '';
+    background: url(../images/icon-ethereum.svg) no-repeat center;
+    width: 11px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 9px;
+}
+
+.card-info .time{
+    color: hsl(215, 51%, 70%);
+    display: flex;
+}
+
+.card-info .time::before{
+    content: '';
+    background: url(/images/icon-clock.svg) no-repeat center;
+    width: 20px;
+    height: 18px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.creator{
+    display: flex;
+    align-items: center;
+}
+
+.creator img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+}
+
+.creator p{
+    margin-left: 15px;
+    color:   hsl(215, 51%, 70%);
+}
+
+.creator-name{
+    color: #FFF;
+    transition: 0.3s ease-in-out;
+}
+
+.creator-name:hover{
+    color: hsl(178, 100%, 50%);
+}
