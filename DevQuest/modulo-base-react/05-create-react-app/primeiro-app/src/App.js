@@ -4,9 +4,20 @@ import Button from './components/button/button.js'
 function App() {
   return (
     <>
-      <Card title='Titulo card 1'/>
-      <Card title='Titulo card 2'/>
-      <Card title='Titulo card 3'/>
+      <Card>
+        <h3>Titulo card 1</h3>
+        <p>Esse é um texto do card</p>
+      </Card>
+
+      <Card>
+        <h3>Titulo card 1</h3>
+        <p>Esse é um texto do card</p>
+      </Card>
+
+      <Card>
+        <h3>Titulo card 1</h3>
+        <p>Esse é um texto do card</p>
+      </Card>
     </>
   );
 }
