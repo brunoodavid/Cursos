@@ -4,9 +4,9 @@ import Button from './components/button/button.js'
 function App() {
   return (
     <>
-      <Card />
-      <Card />
-      <Card />
+      <Card title='Titulo card 1'/>
+      <Card title='Titulo card 2'/>
+      <Card title='Titulo card 3'/>
     </>
   );
 }
