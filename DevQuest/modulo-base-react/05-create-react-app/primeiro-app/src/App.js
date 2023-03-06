@@ -4,20 +4,9 @@ import Button from './components/button/button.js'
 function App() {
   return (
     <>
-      <Card>
-        <h3>Titulo card 1</h3>
-        <p>Esse é um texto do card</p>
-      </Card>
+      <Button label='Baixar CV'/>
 
-      <Card>
-        <h3>Titulo card 1</h3>
-        <p>Esse é um texto do card</p>
-      </Card>
-
-      <Card>
-        <h3>Titulo card 1</h3>
-        <p>Esse é um texto do card</p>
-      </Card>
+      <Button />
     </>
   );
 }
