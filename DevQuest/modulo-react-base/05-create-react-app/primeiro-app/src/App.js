@@ -5,9 +5,9 @@ import Cards from './components/cards/cards'
 function App() {
   return (
     <>
-      {/* <Button label='Baixar CV'/>
+      <Button label='Baixar CV'/>
 
-      <Button /> */}
+      <Button /> 
 
       <Cards />
     </>

@@ -5,9 +5,13 @@ import './button.css'
 //     return <button className="btn">{props.label}</button>
 // }
 
+const sayHello = () =>{
+    console.log('olá')
+}
+
 class Button extends React.Component{
     render(){
-        return <button className="btn">{this.props.label}</button>
+        return <button className="btn" onClick={sayHello}>{this.props.label}</button>
     }
 }
 

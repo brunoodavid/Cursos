@@ -1,12 +1,19 @@
 import React from 'react'
 import './card.css'
 
-const Card = (props) => {
+const Card = ({children, color, showCardColor}) => {
     return (
-        <div className='card'>
-            {props.children}
+        <div 
+        className='card' 
+        style={{ backgroundColor: color}}
+        onClick={() => showCardColor(color)}>
+            {children}
         </div>
     )
+}
+
+Card.defaultProps = {
+    color: 'orange'
 }
 
 // class Card extends React.Component{
