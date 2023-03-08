@@ -1,6 +1,7 @@
 import { Component } from 'react'
 import { useState } from 'react'
 import { useEffect } from 'react'
+import Form from '../forms/form'
 
 async function createDeck() {
     const response = await fetch('https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1')
@@ -9,9 +10,10 @@ async function createDeck() {
 }
 
 async function getCards(deckId) {
-    const response = await fetch(`https://deckofcardsapi.com/api/deck/${deckId}/draw/?count=52`)
+    const response = await fetch(`https://deckofcardsapi.com/api/deck/${deckId}/draw/?count=1`)
     return await response.json()
 }
+
 
 const CardsList = (props) => {
     return (
@@ -47,8 +49,17 @@ const DeckOfCards = () => {
         fetchData()
     }, [])
 
+    const addCard = (newCard) => {
+        console.log(newCard)
+        setDeck({
+            cards: [...deck.cards, newCard]
+        })
+    }
+
     return (
         <section>
+            <Form addCard={addCard}/>
+
             {deck.cards.length > 0 ? <CardsList cards={deck.cards}/> : "Nenhuma carta encontrada!"}
         </section>
     )
