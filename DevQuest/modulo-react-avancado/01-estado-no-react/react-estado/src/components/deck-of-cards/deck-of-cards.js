@@ -44,8 +44,8 @@ const DeckOfCards = () => {
             setDeck({
                 cards: data.cards
             })
+            
         }
-
         fetchData()
     }, [])
 
